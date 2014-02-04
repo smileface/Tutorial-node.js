@@ -1,6 +1,6 @@
-INSTALL NODE.JS
-
-sudo apt-get install python-software-properties python g++ make
-sudo add-apt-repository ppa:chris-lea/node.js
-sudo apt-get update
-sudo apt-get install nodejs
+<h1>INSTALL NODE.JS</h1>
+<hr>
+sudo apt-get install python-software-properties python g++ make <br>
+sudo add-apt-repository ppa:chris-lea/node.js <br>
+sudo apt-get update <br>
+sudo apt-get install nodejs <br>
