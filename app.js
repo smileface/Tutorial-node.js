@@ -1,3 +1,4 @@
 var server = require("./core/server.js");
+var router = require("./core/router.js");
 
-console.log('App started');
+server.start(router.route);
