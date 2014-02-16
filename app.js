@@ -1,6 +1,8 @@
-var server = require("./core/server.js");
-var router = require("./core/router.js");
-var routes = require("./core/routes/index.js");
+var pathCore = __dirname+'/core/';
+
+var server = require(pathCore+"server.js");
+var router = require(pathCore+"router.js");
+var routes = require(pathCore+"routes/index.js");
 
 var handle = {};
 handle["/"] = routes.main;
