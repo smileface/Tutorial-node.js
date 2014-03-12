@@ -1,0 +1,8 @@
+{
+    "name": "sample",
+    "description": "A node.js tutorial app.",
+    "version": "0.0.8",
+    "dependencies": {
+        "formidable": ">= 1.0.14"
+    }
+}
